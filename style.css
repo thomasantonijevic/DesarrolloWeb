@@ -294,9 +294,28 @@ ol li:hover::before {
 }
 
 .carousel-items {
-    -ms-overflow-style: none;
+    -ms-overflow-style: scroll;
     scrollbar-width: none; 
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .carousel-items {
+        justify-content: start;
+    }
+
+    .carousel-items img {
+        width: 95%;  
+        height: auto;
+        margin: 0; 
+    }
+
+    .carousel h3 {
+        font-size: 20px;
+    }
+}
+
+
 
 /* ESTILO FOOTER */
 
