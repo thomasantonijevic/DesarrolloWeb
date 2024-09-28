@@ -1,14 +1,4 @@
-/* GLOBALES */
 
-
-
-
-
-
-
-
-
-/* ----------------------  */
 
 body {
     font-family: 'Georgia', serif;
@@ -222,9 +212,9 @@ ol li:hover::before {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 2px solid #b08d57;
+    border: 2px solid #3b3b3b;
     border-radius: 5px;
-    background-color: #f1e1c9;
+    background-color: #f1f1f1;
     font-family: 'Georgia', serif;
     font-size: 16px;
     color: #3b2f2f;
@@ -282,7 +272,7 @@ ol li:hover::before {
     overflow-x: auto;
     scroll-behavior: smooth;
     padding-bottom: 10px;
-    overflow: hidden;  /* Fix the hover glitch */
+    overflow: hidden; 
 }
 
 .carousel-items img {
@@ -296,7 +286,7 @@ ol li:hover::before {
 }
 
 .carousel-items img:hover {
-    transform: scale(1.05);  /* Zoom en hover */ 
+    transform: scale(1.05);
 }
 
 .carousel-items::-webkit-scrollbar {
@@ -371,25 +361,30 @@ footer a {
 /* STYLE SERVICIOS */
 
 .services {
-    max-width: 1200px; /* Ajusta según tus necesidades */
+    max-width: 1200px; 
     margin: 0 auto;
     padding: 20px;
 }
 
 .service-container {
-    display: flex; /* Usar flexbox para colocar los elementos en fila */
-    justify-content: space-between; /* Espacio entre columnas */
+    display: flex; 
+    justify-content: space-between; 
 }
 
 .service {
-    flex: 1; /* Cada columna ocupará el mismo ancho */
-    margin: 10px; /* Espacio entre las columnas */
-    padding: 15px; /* Espacio interno */
-    border: 1px solid #ccc; /* Bordes opcionales */
-    border-radius: 8px; /* Esquinas redondeadas */
-    background-color: #f9f9f9; /* Color de fondo opcional */
+    flex: 1; 
+    margin: 10px; 
+    padding: 15px; 
+    border: 1px solid #858585; 
+    border-radius: 8px; 
+    background-color: #d3d3d3ec;
 }
 
 .contact-form h2, .contact-form h1 {
     color:#181210;
+}
+
+
+.descarga-curriculum {
+    text-align: center;
 }
